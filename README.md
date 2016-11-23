@@ -27,6 +27,6 @@ It's purpose is to ease and unify the usage of different messaging libraries.
 2. clone all benchmark projects to your local machine
 3. import all projects to your IDE (e.g. I used eclipse)
 4. if you just want to benchmark all brokers add the "Message_Processor" to every client Projects build path.
-5- Look at the configuration Part on this projects wiki page to configure every broker to get comparable measurements.
+5. Look at the configuration Part on this projects wiki page to configure every broker to get comparable measurements.
 6. Now you can start the first broker, run its related receiver.java and then run the sender.java in the same client project. 
 7. Repeat this procedure for every message broker.
