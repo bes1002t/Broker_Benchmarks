@@ -30,3 +30,15 @@ It's purpose is to ease and unify the usage of different messaging libraries.
 5. Look at the configuration Part on this projects wiki page to configure every broker to get comparable measurements.
 6. Now you can start the first broker, run its related receiver.java and then run the sender.java in the same client project. 
 7. Repeat this procedure for every message broker.
+
+
+#Benchmark all Brokers with serialization
+1. Install RabbitMQ-Server, ActiveMQ-Server, QPID-C++ and QPID-Java Server, Glassfish.
+2. clone all benchmark projects to your local machine
+3. import all projects to your IDE (e.g. I used eclipse)
+4. if you want to benchmark all brokers and the serialization framework Gson, add the "Message_Processorr Gson" to every client Projects build path.
+5. if you want to benchmark all brokers and the serialization framework Jackson, add the "Message_Processorr Jackson" to every client Projects build path.
+6. Reorganize the imports in all sender and receiver classes and add the variable i to the "generateMessages()" method. This is needed to provide more information at the end.
+7. Look at the configuration Part on this projects wiki page to configure every broker to get comparable measurements.
+8. Now you can start the first broker, run its related receiver.java and then run the sender.java in the same client project.
+9. Repeat this procedure for every message broker.
