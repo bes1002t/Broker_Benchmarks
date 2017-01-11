@@ -3,7 +3,7 @@ Benchmark for several message brokers
 
 These Benchmarks are developed with Java so a working JDK should be installed on your machine (I used JDK 1.8, I don't know whether there are problems with lower versions.).
 
-This Readme just contains short instructions how to run all benchmarks. If you need more information please look to the wiki page. There are several explanations to message protocols, message brokers and how to use these benchmarks in detail. Probably you can find some issues or improvements to my source code or wiki pages. If that's the case please let me know.
+This Readme just contains short instructions how to run all benchmarks. If you need more information please look on the wiki page. There are several explanations to message protocols, message brokers and how to use these benchmarks in detail. Probably you can find some issues or improvements in my source code or wiki pages. If that's the case please let me know.
 
 #Supported Brokers and its messaging protocols
 - RabbitMQ AMQP (is using AMQP per default)
